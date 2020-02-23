@@ -1,0 +1,19 @@
+C:\Users\Гока\Documents\Visual Studio 2015\Projects\Snake\Snake\bin\Debug\Snake.exe.config
+C:\Users\Гока\Documents\Visual Studio 2015\Projects\Snake\Snake\bin\Debug\Snake.exe
+C:\Users\Гока\Documents\Visual Studio 2015\Projects\Snake\Snake\bin\Debug\Snake.pdb
+C:\Users\Гока\Documents\Visual Studio 2015\Projects\Snake\Snake\obj\Debug\Snake.csprojResolveAssemblyReference.cache
+C:\Users\Гока\Documents\Visual Studio 2015\Projects\Snake\Snake\obj\Debug\Snake.Form1.resources
+C:\Users\Гока\Documents\Visual Studio 2015\Projects\Snake\Snake\obj\Debug\Snake.Properties.Resources.resources
+C:\Users\Гока\Documents\Visual Studio 2015\Projects\Snake\Snake\obj\Debug\Snake.csproj.GenerateResource.Cache
+C:\Users\Гока\Documents\Visual Studio 2015\Projects\Snake\Snake\obj\Debug\Snake.exe
+C:\Users\Гока\Documents\Visual Studio 2015\Projects\Snake\Snake\obj\Debug\Snake.pdb
+C:\Users\Banana 5\Desktop\Snake\Snake\bin\Debug\Snake.exe.config
+C:\Users\Banana 5\Desktop\Snake\Snake\bin\Debug\Snake.exe
+C:\Users\Banana 5\Desktop\Snake\Snake\bin\Debug\Snake.pdb
+C:\Users\Banana 5\Desktop\Snake\Snake\obj\Debug\Snake.csprojAssemblyReference.cache
+C:\Users\Banana 5\Desktop\Snake\Snake\obj\Debug\Snake.Form1.resources
+C:\Users\Banana 5\Desktop\Snake\Snake\obj\Debug\Snake.Properties.Resources.resources
+C:\Users\Banana 5\Desktop\Snake\Snake\obj\Debug\Snake.csproj.GenerateResource.cache
+C:\Users\Banana 5\Desktop\Snake\Snake\obj\Debug\Snake.csproj.CoreCompileInputs.cache
+C:\Users\Banana 5\Desktop\Snake\Snake\obj\Debug\Snake.exe
+C:\Users\Banana 5\Desktop\Snake\Snake\obj\Debug\Snake.pdb
