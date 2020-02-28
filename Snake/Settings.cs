@@ -22,7 +22,7 @@ namespace Snake
         public static int Score;
         public static int Points;
         public static bool GameOver;
-        //public static Direction direction;
+        public static Direction direction;
 
         public Settings()
         {
@@ -32,7 +32,7 @@ namespace Snake
             Score = 0;
             Points = 100;
             GameOver = false;
-         //   direction = Direction.Down;
+            direction = Direction.Down;
         }
     }
 }

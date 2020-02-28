@@ -26,12 +26,12 @@ namespace Snake
             maxXPos = pbCanvas.Size.Width / Settings.Width;
             maxYPos = pbCanvas.Size.Height / Settings.Height;
 
-            gameTimer.Interval = 1000 / Settings.Speed;
-            gameTimer.Tick += UpdateScreen;
-            gameTimer.Start();
+            gameTimer.Interval = 1000 / Settings.Speed; //устанавливаем скорость работы таймера
+            gameTimer.Tick += UpdateScreen; //добавляем вызов функции UpdateScreen каждый "tick"
+            gameTimer.Start(); //запускаем таймер
         }
 
-        private void StartGame()
+        private void StartGame() // запускает игру заново
         {
             lblGameOverf.Visible = false;
 
@@ -47,7 +47,7 @@ namespace Snake
             GenerateFood();
         }
 
-        private void GenerateFood()
+        private void GenerateFood() //генерируем новую еду на рандомной позиции
         {
             Random random = new Random();
             Circle food = new Circle();
@@ -65,11 +65,11 @@ namespace Snake
 
         }
 
-        private void MovePlayer()
+        private void MovePlayer() // двигает игрока
         {
             for (int i = Snake.Count - 1; i >= 0; i--)
             {
-                if(i == 0)
+                if(i == 0) // если голова, то двигаем ее в нужную сторону
                 {
                     switch (Settings.direction)
                     {
@@ -89,23 +89,23 @@ namespace Snake
 
                     if (Snake[i].X < 0 || Snake[i].Y < 0 || Snake[i].X >= maxXPos || Snake[i].Y >= maxYPos)
                     {
-                        Die();
+                        Die(); //если врезались в стену - GameOver
                     }
 
-                    for (int j = 1; j < Snake.Count; j++)
+                    for (int j = 1; j < Snake.Count; j++) //проверяем, что не врезались в тело
                     {
                         if(Snake[i].X == Snake[j].X && Snake[i].Y == Snake[j].Y)
                         {
-                            Die();
+                            Die(); //если врезались - умираем
                         }
                     }
 
-                    if (Snake[i].Y == food.Y && Snake[i].X == food.X)
+                    if (Snake[i].Y == food.Y && Snake[i].X == food.X) //если попали на еду - едим
                     {
                         Eat();
                     }
                 }
-                else
+                else //если работем с остальным телом, то двигаем предыдущий кусочек на место следующего
                 {
                     Snake[i].X = Snake[i + 1].X;
                     Snake[i].Y = Snake[i + 1].Y;
@@ -113,12 +113,12 @@ namespace Snake
             }
         }
 
-        private void Die()
+        private void Die() // вызывает конец игры
         {
             Settings.GameOver = true;
         }
 
-        private void Eat()
+        private void Eat() // добавляет в список Snake новый кружок и вызывает метод генерации новой еды
         {
             Circle food = new Circle();
             food.X = Snake[Snake.Count - 1].X;
