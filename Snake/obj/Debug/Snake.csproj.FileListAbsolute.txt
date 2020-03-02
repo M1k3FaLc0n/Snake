@@ -17,3 +17,12 @@ C:\Users\Banana 5\Desktop\Snake\Snake\obj\Debug\Snake.csproj.GenerateResource.ca
 C:\Users\Banana 5\Desktop\Snake\Snake\obj\Debug\Snake.csproj.CoreCompileInputs.cache
 C:\Users\Banana 5\Desktop\Snake\Snake\obj\Debug\Snake.exe
 C:\Users\Banana 5\Desktop\Snake\Snake\obj\Debug\Snake.pdb
+C:\Users\Michael\Documents\_Work\Snake\Snake\bin\Debug\Snake.exe.config
+C:\Users\Michael\Documents\_Work\Snake\Snake\bin\Debug\Snake.exe
+C:\Users\Michael\Documents\_Work\Snake\Snake\bin\Debug\Snake.pdb
+C:\Users\Michael\Documents\_Work\Snake\Snake\obj\Debug\Snake.csprojAssemblyReference.cache
+C:\Users\Michael\Documents\_Work\Snake\Snake\obj\Debug\Snake.Form1.resources
+C:\Users\Michael\Documents\_Work\Snake\Snake\obj\Debug\Snake.Properties.Resources.resources
+C:\Users\Michael\Documents\_Work\Snake\Snake\obj\Debug\Snake.csproj.GenerateResource.cache
+C:\Users\Michael\Documents\_Work\Snake\Snake\obj\Debug\Snake.exe
+C:\Users\Michael\Documents\_Work\Snake\Snake\obj\Debug\Snake.pdb
